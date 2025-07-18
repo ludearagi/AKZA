@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #000000;
+    color: #000000;
+}
+body {
+  background: url('imagens/fundo.png') no-repeat center center fixed;
+  background-size: cover;
+  background-position: center 64%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: w8hite;
+    padding: 2rem 0;
+    text-align: center;
+    font-family:monospace
+    margin 0 auto;
+}
+
+.logo {
+    width: 300px; /* Define a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Faz a imagem ser um elemento de bloco */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+    color:#303030e3;
+    text-decoration: none;
+    width: 250px; 
+    height: auto;
+    margin: 0 auto;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    background-color: #303030a8;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    margin-bottom: 100px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #000000;
+    
+}
+
+.hero-content .btn {
+    padding: 0.75rem 1.5rem;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#sobre-nos {
+    padding: 2rem 1rem;
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+}
+
+#sobre-nos h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#servicos {
+    padding: 2rem 1rem;
+    background-color: #303030e3;
+    text-align: center;
+    color:#000000
+}
+
+#servicos h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.service-item {
+    background-color: #797979;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(252, 251, 251);
+}
+
+.service-item h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+#contato {
+    background-color: #000000;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#contato {
+    background-color: #000000;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+#contato h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100px;
+}
+
+html {
+    scroll-behavior: smooth; /* Aplica um comportamento de rolagem suave */
+}
